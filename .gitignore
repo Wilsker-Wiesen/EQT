@@ -1,0 +1,21 @@
+# Klett-Material und Pakete: nie ins Repository
+/private/
+/klett/
+EQT - Material Découvertes/
+Pakete/
+*.zip
+
+# Audio (eigenes TTS-Audio wird per Skript erzeugt, nicht versioniert)
+*.mp3
+*.wav
+*.ogg
+*.m4a
+*.opus
+
+# Werkzeuge
+node_modules/
+dist/
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
