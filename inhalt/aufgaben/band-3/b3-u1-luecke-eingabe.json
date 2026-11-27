@@ -1,0 +1,193 @@
+{
+  "id": "b3-u1-luecke-eingabe",
+  "lernjahr": 3,
+  "einheit": "u1",
+  "niveau": "A2",
+  "status": "entwurf",
+  "audioquelle": "eigen",
+  "format": "luecke_eingabe",
+  "titel": "À table !",
+  "situation": "Le premier dimanche, Jonas déjeune avec Madame Garnier, la mère d’Inès.",
+  "consigne": "Écoute et complète les phrases avec un mot.",
+  "audio": [
+    {
+      "pfad": "audio/band-3/b3-u1-luecke-eingabe.mp3"
+    }
+  ],
+  "sprecher": [
+    {
+      "id": "garnier",
+      "name": "Madame Garnier",
+      "stimme": "fr_FR-siwis-medium"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "stimme": "fr_FR-mls-medium#46"
+    }
+  ],
+  "transkript": [
+    {
+      "audio": 0,
+      "sprecher": "garnier",
+      "text": "Jonas, tu veux encore un peu de salade ?",
+      "von": 0.6,
+      "bis": 3.37
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Non merci, madame, ça va. Mais je veux bien encore du pain, s’il vous plaît.",
+      "von": 3.82,
+      "bis": 8.88
+    },
+    {
+      "audio": 0,
+      "sprecher": "garnier",
+      "text": "Voilà. Après, il y a du fromage. Tu aimes le fromage ?",
+      "von": 9.33,
+      "bis": 13.38
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Oui, beaucoup ! Surtout le camembert.",
+      "von": 13.83,
+      "bis": 18.59
+    },
+    {
+      "audio": 0,
+      "sprecher": "garnier",
+      "text": "Et le poulet, c’est bon ?",
+      "von": 19.04,
+      "bis": 20.63
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "C’est délicieux ! Chez moi, le dimanche, on mange souvent des pâtes. Mon père adore faire la cuisine.",
+      "von": 21.08,
+      "bis": 29.82
+    },
+    {
+      "audio": 0,
+      "sprecher": "garnier",
+      "text": "Et pour le dessert, j’ai fait une tarte aux pommes.",
+      "von": 30.27,
+      "bis": 33.04
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Hmm, super ! Est-ce que je peux vous aider ? Je peux mettre la table, ou faire la vaisselle après.",
+      "von": 33.49,
+      "bis": 40.45
+    },
+    {
+      "audio": 0,
+      "sprecher": "garnier",
+      "text": "C’est gentil, Jonas. Tu peux apporter les verres, s’il te plaît ?",
+      "von": 40.9,
+      "bis": 44.88
+    }
+  ],
+  "items": [
+    {
+      "id": "e1",
+      "satz": "Jonas ne veut plus de ___.",
+      "loesungen": [
+        "salade"
+      ],
+      "zeilen": [
+        0,
+        1
+      ],
+      "stelle": [
+        0.6,
+        8.88
+      ]
+    },
+    {
+      "id": "e2",
+      "satz": "Il reprend du ___.",
+      "loesungen": [
+        "pain"
+      ],
+      "zeilen": [
+        1
+      ],
+      "stelle": [
+        3.82,
+        8.88
+      ]
+    },
+    {
+      "id": "e3",
+      "satz": "Après, il y a du ___.",
+      "loesungen": [
+        "fromage"
+      ],
+      "zeilen": [
+        2
+      ],
+      "stelle": [
+        9.33,
+        13.38
+      ]
+    },
+    {
+      "id": "e4",
+      "satz": "Chez Jonas, le dimanche, on mange souvent des ___.",
+      "loesungen": [
+        "pâtes"
+      ],
+      "zeilen": [
+        5
+      ],
+      "stelle": [
+        21.08,
+        29.82
+      ]
+    },
+    {
+      "id": "e5",
+      "satz": "Pour le dessert, il y a une tarte aux ___.",
+      "loesungen": [
+        "pommes"
+      ],
+      "zeilen": [
+        6
+      ],
+      "stelle": [
+        30.27,
+        33.04
+      ]
+    },
+    {
+      "id": "e6",
+      "satz": "Jonas apporte les ___.",
+      "loesungen": [
+        "verres"
+      ],
+      "zeilen": [
+        8
+      ],
+      "stelle": [
+        40.9,
+        44.88
+      ]
+    }
+  ],
+  "qualitaet": {
+    "bezug": "Bei Tisch in der Gastfamilie: höflich ablehnen, loben, Hilfe anbieten",
+    "neue_strukturen": [
+      "je veux bien",
+      "Est-ce que je peux vous aider ?",
+      "vouvoyer/tutoyer gemischt"
+    ],
+    "unsicher": [
+      "e2 «reprend» ist neu; Alternative: «Il veut encore du ___.»",
+      "Eingabe «pâtes»: Akzent wird als fast richtig gewertet"
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "b3-u1-qcm-multi",
+  "lernjahr": 3,
+  "einheit": "u1",
+  "niveau": "A2",
+  "status": "entwurf",
+  "audioquelle": "eigen",
+  "format": "qcm_multi",
+  "titel": "Le programme de la semaine",
+  "situation": "Le premier soir, Inès explique à Jonas le programme de la semaine.",
+  "consigne": "Écoute. Coche toutes les bonnes réponses. Attention : il y a souvent plusieurs bonnes réponses.",
+  "audio": [
+    {
+      "pfad": "audio/band-3/b3-u1-qcm-multi.mp3"
+    }
+  ],
+  "sprecher": [
+    {
+      "id": "ines",
+      "name": "Inès",
+      "stimme": "fr_FR-siwis-medium"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "stimme": "fr_FR-mls-medium#46"
+    }
+  ],
+  "transkript": [
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Alors, qu’est-ce qu’on fait cette semaine ?",
+      "von": 0.6,
+      "bis": 3.65
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Lundi matin, tu viens avec moi au lycée. Tu vas voir, les journées sont plus longues qu’en Allemagne : on finit à cinq heures.",
+      "von": 4.1,
+      "bis": 11.51
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Cinq heures ? Ouh là !",
+      "von": 11.96,
+      "bis": 14.49
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Mais à midi, on mange ensemble à la cantine, c’est pas mal. Mardi après-midi, tous les correspondants visitent le centre-ville avec les profs.",
+      "von": 14.94,
+      "bis": 22.51
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Et mercredi ?",
+      "von": 22.96,
+      "bis": 24.4
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Le mercredi après-midi, on n’a pas cours. Je fais du basket, tu peux venir si tu veux. Ou on fait du skate avec mes copains.",
+      "von": 24.85,
+      "bis": 31.69
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Plutôt le skate ! Je suis nul en basket.",
+      "von": 32.14,
+      "bis": 36.85
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "D’accord. Jeudi, c’est la journée à la mer : on va à la plage en bus avec toute la classe.",
+      "von": 37.3,
+      "bis": 42.96
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Génial ! Et le week-end ?",
+      "von": 43.41,
+      "bis": 46.16
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Samedi, on va chez ma grand-mère, à la campagne. C’est à une heure de Montpellier. Elle a des chevaux !",
+      "von": 46.61,
+      "bis": 52.4
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Des chevaux ? Incroyable !",
+      "von": 52.85,
+      "bis": 56.82
+    }
+  ],
+  "items": [
+    {
+      "id": "m1",
+      "frage": "Lundi, qu’est-ce que Jonas fait ?",
+      "optionen": [
+        "Il va au lycée avec Inès.",
+        "Il mange à la cantine.",
+        "Il visite le centre-ville.",
+        "Il va à la plage."
+      ],
+      "loesung": [
+        0,
+        1
+      ],
+      "zeilen": [
+        1,
+        3
+      ],
+      "stelle": [
+        4.1,
+        22.51
+      ]
+    },
+    {
+      "id": "m2",
+      "frage": "Mercredi après-midi, qu’est-ce que Jonas peut faire ?",
+      "optionen": [
+        "du basket",
+        "du skate",
+        "du tennis",
+        "du vélo"
+      ],
+      "loesung": [
+        0,
+        1
+      ],
+      "zeilen": [
+        5
+      ],
+      "stelle": [
+        24.85,
+        31.69
+      ]
+    },
+    {
+      "id": "m3",
+      "frage": "Quels endroits est-ce que Jonas va voir pendant la semaine ?",
+      "optionen": [
+        "le centre-ville",
+        "la plage",
+        "la campagne",
+        "la montagne"
+      ],
+      "loesung": [
+        0,
+        1,
+        2
+      ],
+      "zeilen": [
+        3,
+        7,
+        9
+      ],
+      "stelle": [
+        14.94,
+        52.4
+      ]
+    }
+  ],
+  "qualitaet": {
+    "bezug": "Programm eines Austauschs, Schulalltag in Frankreich, Freizeit",
+    "neue_strukturen": [
+      "Komparativ: plus longues qu’en Allemagne",
+      "à une heure de …"
+    ],
+    "unsicher": [
+      "«c’est pas mal» ohne ne: bewusst gesprochene Sprache",
+      "m1: Mittagessen gehört zum Montag nur indirekt (gilt für jeden Schultag), eventuell umformulieren"
+    ]
+  }
+}

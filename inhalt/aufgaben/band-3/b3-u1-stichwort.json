@@ -1,0 +1,222 @@
+{
+  "id": "b3-u1-stichwort",
+  "lernjahr": 3,
+  "einheit": "u1",
+  "niveau": "A2+",
+  "status": "entwurf",
+  "audioquelle": "eigen",
+  "format": "stichwort",
+  "titel": "Perdu en ville",
+  "situation": "Jonas est en ville. Il téléphone à Inès parce qu’il a perdu son groupe.",
+  "consigne": "Écoute et note les informations : un nombre, une heure ou un lieu.",
+  "audio": [
+    {
+      "pfad": "audio/band-3/b3-u1-stichwort.mp3"
+    }
+  ],
+  "sprecher": [
+    {
+      "id": "ines",
+      "name": "Inès",
+      "stimme": "fr_FR-siwis-medium"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "stimme": "fr_FR-mls-medium#46"
+    }
+  ],
+  "transkript": [
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Allô, Inès ? C’est Jonas. J’ai un problème : j’ai perdu mon groupe !",
+      "von": 0.6,
+      "bis": 6.82
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Quoi ? Tu es où, là ?",
+      "von": 7.27,
+      "bis": 9.2
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Je ne sais pas… Il y a une grande place avec une fontaine et un cinéma.",
+      "von": 9.65,
+      "bis": 13.69
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Ah, c’est sûrement la place de la Comédie. Ne bouge pas ! Ton portable a encore de la batterie ?",
+      "von": 14.14,
+      "bis": 19.75
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Oui, mais seulement douze pour cent. Je n’ai pas mon chargeur.",
+      "von": 20.2,
+      "bis": 25.14
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "D’accord, alors on fait vite. Je finis le basket à cinq heures et quart. Je prends le tram, la ligne un, et j’arrive vers six heures moins le quart.",
+      "von": 25.59,
+      "bis": 33.34
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Six heures moins le quart… OK. Je t’attends devant le cinéma ?",
+      "von": 33.79,
+      "bis": 39.69
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Non, plutôt devant l’office de tourisme, c’est juste à côté.",
+      "von": 40.14,
+      "bis": 43.67
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Bon, d’accord. Et mon groupe ?",
+      "von": 44.12,
+      "bis": 47.48
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "J’écris un message à ton prof. Et toi, achète-toi une glace, ça va te calmer !",
+      "von": 47.93,
+      "bis": 52.7
+    }
+  ],
+  "items": [
+    {
+      "id": "s1",
+      "frage": "Sur quelle place est Jonas ?",
+      "loesungen": [
+        "place de la Comédie",
+        "la place de la Comédie",
+        "Comédie"
+      ],
+      "art": "ort",
+      "zeilen": [
+        3
+      ],
+      "stelle": [
+        14.14,
+        19.75
+      ]
+    },
+    {
+      "id": "s2",
+      "frage": "Combien de batterie a encore son portable ? (en %)",
+      "loesungen": [
+        "12",
+        "douze",
+        "12 %"
+      ],
+      "art": "zahl",
+      "zeilen": [
+        4
+      ],
+      "stelle": [
+        20.2,
+        25.14
+      ]
+    },
+    {
+      "id": "s3",
+      "frage": "À quelle heure Inès finit le basket ?",
+      "loesungen": [
+        "17h15",
+        "5h15",
+        "17:15",
+        "5:15",
+        "cinq heures et quart"
+      ],
+      "art": "uhrzeit",
+      "zeilen": [
+        5
+      ],
+      "stelle": [
+        25.59,
+        33.34
+      ]
+    },
+    {
+      "id": "s4",
+      "frage": "Quelle ligne de tram Inès prend ?",
+      "loesungen": [
+        "1",
+        "un",
+        "ligne 1",
+        "la ligne 1"
+      ],
+      "art": "zahl",
+      "zeilen": [
+        5
+      ],
+      "stelle": [
+        25.59,
+        33.34
+      ]
+    },
+    {
+      "id": "s5",
+      "frage": "À quelle heure Inès arrive ?",
+      "loesungen": [
+        "17h45",
+        "5h45",
+        "17:45",
+        "5:45",
+        "six heures moins le quart"
+      ],
+      "art": "uhrzeit",
+      "zeilen": [
+        5
+      ],
+      "stelle": [
+        25.59,
+        33.34
+      ]
+    },
+    {
+      "id": "s6",
+      "frage": "Où est le rendez-vous ?",
+      "loesungen": [
+        "devant l’office de tourisme",
+        "office de tourisme",
+        "l’office de tourisme"
+      ],
+      "art": "ort",
+      "zeilen": [
+        7
+      ],
+      "stelle": [
+        40.14,
+        43.67
+      ]
+    }
+  ],
+  "qualitaet": {
+    "bezug": "Sich in der Stadt zurechtfinden, Problem am Telefon lösen (perdre, chargeur, rendez-vous)",
+    "neue_strukturen": [
+      "six heures moins le quart",
+      "Ne bouge pas !",
+      "achète-toi (Imperativ mit Pronomen)"
+    ],
+    "unsicher": [
+      "s3 und s5 in derselben Zeile: Lernende müssen zwei Uhrzeiten trennen (gewollt, aber A2+)",
+      "s1: Ortsname muss geschrieben werden; ggf. Schreibweise großzügiger werten"
+    ]
+  }
+}

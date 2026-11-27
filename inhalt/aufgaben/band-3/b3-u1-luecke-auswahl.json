@@ -1,0 +1,215 @@
+{
+  "id": "b3-u1-luecke-auswahl",
+  "lernjahr": 3,
+  "einheit": "u1",
+  "niveau": "A2",
+  "status": "entwurf",
+  "audioquelle": "eigen",
+  "format": "luecke_auswahl",
+  "titel": "Ici et là-bas",
+  "situation": "Jonas et Inès comparent la vie en France et en Allemagne.",
+  "consigne": "Écoute et choisis le bon mot pour compléter les phrases.",
+  "audio": [
+    {
+      "pfad": "audio/band-3/b3-u1-luecke-auswahl.mp3"
+    }
+  ],
+  "sprecher": [
+    {
+      "id": "ines",
+      "name": "Inès",
+      "stimme": "fr_FR-siwis-medium"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "stimme": "fr_FR-mls-medium#46"
+    }
+  ],
+  "transkript": [
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Alors, Jonas, qu’est-ce qui est différent chez toi, en Allemagne ?",
+      "von": 0.6,
+      "bis": 4.41
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "L’école, surtout ! Chez moi, les cours finissent à une heure ou à deux heures. Ici, les journées sont beaucoup plus longues.",
+      "von": 4.86,
+      "bis": 12.66
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Oui, mais nous, on a une vraie pause à midi.",
+      "von": 13.11,
+      "bis": 15.93
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "C’est vrai. Et la cantine est meilleure que chez nous ! Le poisson d’hier était délicieux.",
+      "von": 16.38,
+      "bis": 24.24
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Ha ha, tu es le premier à dire ça !",
+      "von": 24.69,
+      "bis": 26.79
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Par contre, ici, le dîner est très tard. Chez moi, on mange à six heures et demie. Ici, à huit heures ! Le premier soir, j’avais trop faim.",
+      "von": 27.24,
+      "bis": 37.83
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Et ta ville ? Elle est plus grande que Montpellier ?",
+      "von": 38.28,
+      "bis": 41.09
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Non, j’habite près de Brême, dans une petite ville. C’est beaucoup moins grand que Montpellier.",
+      "von": 41.54,
+      "bis": 46.54
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Et le temps ?",
+      "von": 46.99,
+      "bis": 47.88
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Alors là, pas de comparaison. Ici, il fait beaucoup plus chaud. En novembre, chez moi, il pleut tout le temps !",
+      "von": 48.33,
+      "bis": 57.13
+    }
+  ],
+  "items": [
+    {
+      "id": "l1",
+      "satz": "En Allemagne, les cours de Jonas finissent à ___.",
+      "optionen": [
+        "midi",
+        "une ou deux heures",
+        "cinq heures"
+      ],
+      "loesung": 1,
+      "zeilen": [
+        1
+      ],
+      "stelle": [
+        4.86,
+        12.66
+      ]
+    },
+    {
+      "id": "l2",
+      "satz": "En France, les journées d’école sont ___.",
+      "optionen": [
+        "plus longues",
+        "moins longues",
+        "aussi longues"
+      ],
+      "loesung": 0,
+      "zeilen": [
+        1
+      ],
+      "stelle": [
+        4.86,
+        12.66
+      ]
+    },
+    {
+      "id": "l3",
+      "satz": "Pour Jonas, la cantine française est ___ que la cantine allemande.",
+      "optionen": [
+        "meilleure",
+        "pire",
+        "aussi bonne"
+      ],
+      "loesung": 0,
+      "zeilen": [
+        3
+      ],
+      "stelle": [
+        16.38,
+        24.24
+      ]
+    },
+    {
+      "id": "l4",
+      "satz": "Chez Jonas, on dîne ___ qu’en France.",
+      "optionen": [
+        "plus tôt",
+        "plus tard",
+        "à la même heure"
+      ],
+      "loesung": 0,
+      "zeilen": [
+        5
+      ],
+      "stelle": [
+        27.24,
+        37.83
+      ]
+    },
+    {
+      "id": "l5",
+      "satz": "La ville de Jonas est ___ que Montpellier.",
+      "optionen": [
+        "plus grande",
+        "moins grande",
+        "aussi grande"
+      ],
+      "loesung": 1,
+      "zeilen": [
+        7
+      ],
+      "stelle": [
+        41.54,
+        46.54
+      ]
+    },
+    {
+      "id": "l6",
+      "satz": "À Montpellier, il fait ___ que chez Jonas.",
+      "optionen": [
+        "plus froid",
+        "plus chaud",
+        "aussi chaud"
+      ],
+      "loesung": 1,
+      "zeilen": [
+        9
+      ],
+      "stelle": [
+        48.33,
+        57.13
+      ]
+    }
+  ],
+  "qualitaet": {
+    "bezug": "Vergleich Frankreich–Deutschland: Schultag, Essen, Wohnort, Wetter",
+    "neue_strukturen": [
+      "Komparativ: plus/moins … que, meilleur(e)",
+      "imparfait: était, j’avais"
+    ],
+    "unsicher": [
+      "l4 «plus tôt»: Wort «tôt» bekannt?"
+    ]
+  }
+}

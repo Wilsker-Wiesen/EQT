@@ -35,6 +35,8 @@ const itemBasis = {
   /** ganze Punkte, keine halben */
   punkte: z.number().int().min(1).default(1),
   stelle: stelle.optional(),
+  /** Transkriptzeilen (Indizes) mit der Information; daraus setzt tools/vertone.py `stelle` */
+  zeilen: z.array(z.number().int().nonnegative()).min(1).optional(),
 }
 
 const optionen = z.array(text).min(3).max(4)
@@ -188,6 +190,9 @@ export const aufgabeSchema = aufgabeOhnePruefung.superRefine((a, ctx) => {
   a.items.forEach((item, i) => {
     if (itemIds.has(item.id)) fehler(['items', i, 'id'], `doppelte Item-id «${item.id}»`)
     itemIds.add(item.id)
+    for (const k of item.zeilen ?? []) {
+      if (k >= a.transkript.length) fehler(['items', i, 'zeilen'], `Transkriptzeile ${k} gibt es nicht`)
+    }
   })
 
   a.items.forEach((item, i) => {

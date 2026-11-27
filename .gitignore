@@ -23,3 +23,10 @@ __pycache__/
 # Interne Arbeitsdateien (Übergabe, Austausch mit der Material-Sitzung)
 PROMPT_fuer_Claude_Code.md
 _Briefkasten/
+
+# eigenes TTS-Audio darf ins Repository (öffentlich), alles andere Audio nicht
+!public/audio/**/*.mp3
+
+# Piper: Umgebung, Stimmmodelle, Hörproben
+.stimmen/
+hoerproben/

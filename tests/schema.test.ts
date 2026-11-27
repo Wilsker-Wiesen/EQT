@@ -51,6 +51,8 @@ describe('Schema: Ablehnungen', () => {
     expect(meldungen(basisAufgabe({ transkript: [{ sprecher: 'lea', text: 'Bonjour.' }] })).join()).toMatch(/zwei Stimmen/))
   it('Transkript mit unbekanntem Sprecher', () =>
     expect(ok(basisAufgabe({ transkript: [{ sprecher: 'lea', text: 'a' }, { sprecher: 'max', text: 'b' }] }))).toBe(false))
+  it('Verweis auf fehlende Transkriptzeile', () =>
+    expect(meldungen(basisAufgabe({ items: [{ id: 'i1', frage: 'x', optionen: ['a', 'b', 'c'], loesung: 0, zeilen: [5] }] })).join()).toMatch(/Transkriptzeile 5/))
   it('gesperrt ohne Grund', () => expect(ok(basisAufgabe({ status: 'gesperrt' }))).toBe(false))
   it('unbekannter Status', () => expect(ok(basisAufgabe({ status: 'fertig' }))).toBe(false))
   it('Audiopfad mit Umlaut', () => expect(ok(basisAufgabe({ audio: [{ pfad: 'audio/hören.mp3' }] }))).toBe(false))

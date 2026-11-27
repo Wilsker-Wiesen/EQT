@@ -1,0 +1,183 @@
+{
+  "id": "b3-u1-qcm",
+  "lernjahr": 3,
+  "einheit": "u1",
+  "niveau": "A2",
+  "status": "entwurf",
+  "audioquelle": "eigen",
+  "format": "qcm",
+  "titel": "Enfin à Montpellier !",
+  "situation": "Jonas, un élève allemand, arrive à Montpellier pour un échange. Inès, sa correspondante, l’attend à la gare.",
+  "consigne": "Écoute le dialogue et coche la bonne réponse.",
+  "audio": [
+    {
+      "pfad": "audio/band-3/b3-u1-qcm.mp3"
+    }
+  ],
+  "sprecher": [
+    {
+      "id": "ines",
+      "name": "Inès",
+      "stimme": "fr_FR-siwis-medium"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "stimme": "fr_FR-mls-medium#46"
+    }
+  ],
+  "transkript": [
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Jonas ! Ici ! Salut, je suis Inès. Bienvenue à Montpellier !",
+      "von": 0.6,
+      "bis": 5.37
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Salut Inès ! Enfin ! Je suis content d’être là.",
+      "von": 5.82,
+      "bis": 11.05
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Tu as fait bon voyage ?",
+      "von": 11.5,
+      "bis": 12.89
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Bof… Le train avait une heure de retard à Lyon. Le voyage était plus long que prévu.",
+      "von": 13.34,
+      "bis": 18.31
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Oh, c’est nul ! Tu dois être fatigué.",
+      "von": 18.76,
+      "bis": 21.48
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Un peu, oui. Et j’ai faim, aussi.",
+      "von": 21.93,
+      "bis": 25.04
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Ne t’inquiète pas, ma mère prépare le dîner. On prend le tram, la maison est à vingt minutes.",
+      "von": 25.49,
+      "bis": 30.92
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "D’accord. Euh… tes parents parlent allemand ?",
+      "von": 31.37,
+      "bis": 35.36
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Non, pas du tout. Mais mon petit frère apprend l’allemand au collège. Il est très excité, il a préparé des phrases pour toi !",
+      "von": 35.81,
+      "bis": 43.11
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "C’est sympa ! Moi, je suis un peu timide au début, mais ça va aller.",
+      "von": 43.56,
+      "bis": 48.55
+    }
+  ],
+  "items": [
+    {
+      "id": "q1",
+      "frage": "Pourquoi est-ce que le voyage de Jonas était long ?",
+      "optionen": [
+        "Il a raté son train.",
+        "Le train avait du retard.",
+        "Il a pris le bus."
+      ],
+      "loesung": 1,
+      "zeilen": [
+        3
+      ],
+      "stelle": [
+        13.34,
+        18.31
+      ]
+    },
+    {
+      "id": "q2",
+      "frage": "Comment va Jonas ?",
+      "optionen": [
+        "Il est fatigué et il a faim.",
+        "Il est malade.",
+        "Il est triste."
+      ],
+      "loesung": 0,
+      "zeilen": [
+        4,
+        5
+      ],
+      "stelle": [
+        18.76,
+        25.04
+      ]
+    },
+    {
+      "id": "q3",
+      "frage": "Comment est-ce qu’ils vont à la maison ?",
+      "optionen": [
+        "à pied",
+        "en tram",
+        "en voiture"
+      ],
+      "loesung": 1,
+      "zeilen": [
+        6
+      ],
+      "stelle": [
+        25.49,
+        30.92
+      ]
+    },
+    {
+      "id": "q4",
+      "frage": "Qui parle un peu allemand dans la famille d’Inès ?",
+      "optionen": [
+        "la mère",
+        "le père",
+        "le petit frère"
+      ],
+      "loesung": 2,
+      "zeilen": [
+        8
+      ],
+      "stelle": [
+        35.81,
+        43.11
+      ]
+    }
+  ],
+  "qualitaet": {
+    "bezug": "Ankunft beim Austausch, Gastfamilie, Gefühle (fatigué, timide, excité)",
+    "neue_strukturen": [
+      "Komparativ: plus long que prévu",
+      "imparfait: avait, était"
+    ],
+    "unsicher": [
+      "Ist das imparfait in Band 3, Unité 1 schon bekannt?",
+      "q2: «malade» als Distraktor vielleicht zu leicht"
+    ]
+  }
+}

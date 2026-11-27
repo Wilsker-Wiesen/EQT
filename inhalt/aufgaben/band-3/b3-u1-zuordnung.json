@@ -1,0 +1,154 @@
+{
+  "id": "b3-u1-zuordnung",
+  "lernjahr": 3,
+  "einheit": "u1",
+  "niveau": "A2+",
+  "status": "entwurf",
+  "audioquelle": "eigen",
+  "format": "zuordnung",
+  "titel": "Quatre annonces",
+  "situation": "Pendant son séjour, Jonas entend beaucoup d’annonces.",
+  "consigne": "Écoute les annonces. Où est-ce qu’on les entend ? Attention : il y a un endroit de trop.",
+  "audio": [
+    {
+      "pfad": "audio/band-3/b3-u1-zuordnung-1.mp3",
+      "titel": "Annonce 1"
+    },
+    {
+      "pfad": "audio/band-3/b3-u1-zuordnung-2.mp3",
+      "titel": "Annonce 2"
+    },
+    {
+      "pfad": "audio/band-3/b3-u1-zuordnung-3.mp3",
+      "titel": "Annonce 3"
+    },
+    {
+      "pfad": "audio/band-3/b3-u1-zuordnung-4.mp3",
+      "titel": "Annonce 4"
+    }
+  ],
+  "sprecher": [
+    {
+      "id": "f",
+      "name": "Annonce (voix de femme)",
+      "stimme": "fr_FR-siwis-medium"
+    },
+    {
+      "id": "m",
+      "name": "Annonce (voix d’homme)",
+      "stimme": "fr_FR-mls-medium#46"
+    }
+  ],
+  "ziele": [
+    {
+      "id": "gare",
+      "text": "à la gare"
+    },
+    {
+      "id": "tram",
+      "text": "dans le tram"
+    },
+    {
+      "id": "aeroport",
+      "text": "à l’aéroport"
+    },
+    {
+      "id": "lycee",
+      "text": "au lycée"
+    },
+    {
+      "id": "supermarche",
+      "text": "au supermarché"
+    }
+  ],
+  "transkript": [
+    {
+      "audio": 0,
+      "sprecher": "f",
+      "text": "Mesdames et messieurs, le TGV numéro 6214 à destination de Paris partira avec un retard de quinze minutes. Départ voie B. Merci de votre compréhension.",
+      "von": 0.6,
+      "bis": 10.76
+    },
+    {
+      "audio": 1,
+      "sprecher": "m",
+      "text": "Prochain arrêt : Place de la Comédie. Pour la ligne deux, changez ici. Attention à la fermeture des portes.",
+      "von": 0.6,
+      "bis": 9.83
+    },
+    {
+      "audio": 2,
+      "sprecher": "f",
+      "text": "Votre attention, s’il vous plaît. Les passagers du vol pour Francfort sont priés de se présenter à la porte douze. Embarquement immédiat.",
+      "von": 0.6,
+      "bis": 7.93
+    },
+    {
+      "audio": 3,
+      "sprecher": "m",
+      "text": "Bonjour à tous. Les élèves allemands de l’échange sont attendus à dix heures dans la salle 105, avec leurs correspondants. Merci !",
+      "von": 0.6,
+      "bis": 7.82
+    }
+  ],
+  "items": [
+    {
+      "id": "a1",
+      "frage": "Annonce 1",
+      "loesung": "gare",
+      "zeilen": [
+        0
+      ],
+      "stelle": [
+        0.6,
+        10.76
+      ]
+    },
+    {
+      "id": "a2",
+      "frage": "Annonce 2",
+      "loesung": "tram",
+      "zeilen": [
+        1
+      ],
+      "stelle": [
+        0.6,
+        9.83
+      ]
+    },
+    {
+      "id": "a3",
+      "frage": "Annonce 3",
+      "loesung": "aeroport",
+      "zeilen": [
+        2
+      ],
+      "stelle": [
+        0.6,
+        7.93
+      ]
+    },
+    {
+      "id": "a4",
+      "frage": "Annonce 4",
+      "loesung": "lycee",
+      "zeilen": [
+        3
+      ],
+      "stelle": [
+        0.6,
+        7.82
+      ]
+    }
+  ],
+  "qualitaet": {
+    "bezug": "Sich zurechtfinden: Durchsagen an Bahnhof, Tram, Flughafen, Schule",
+    "neue_strukturen": [
+      "Durchsagesprache: partira, sont priés de, embarquement immédiat"
+    ],
+    "unsicher": [
+      "«sont priés de se présenter» ist eher B1, wird aber über Flughafen-Schlüsselwörter (vol, porte, embarquement) lösbar",
+      "TTS spricht «6214» und «105» eventuell nicht natürlich"
+    ]
+  }
+}

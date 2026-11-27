@@ -1,0 +1,213 @@
+{
+  "id": "b3-u1-vrai-faux",
+  "lernjahr": 3,
+  "einheit": "u1",
+  "niveau": "A2",
+  "status": "entwurf",
+  "audioquelle": "eigen",
+  "format": "vrai_faux",
+  "titel": "Un petit coup de blues",
+  "situation": "Après dix jours en France, Jonas n’a pas l’air content. Inès lui parle.",
+  "consigne": "Écoute le dialogue. Vrai, faux ou on ne sait pas ?",
+  "audio": [
+    {
+      "pfad": "audio/band-3/b3-u1-vrai-faux.mp3"
+    }
+  ],
+  "sprecher": [
+    {
+      "id": "ines",
+      "name": "Inès",
+      "stimme": "fr_FR-siwis-medium"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas",
+      "stimme": "fr_FR-mls-medium#46"
+    }
+  ],
+  "mit_on_ne_sait_pas": true,
+  "transkript": [
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Jonas, ça va ? Tu ne dis rien depuis ce matin.",
+      "von": 0.6,
+      "bis": 3.92
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Bof… Ça ne va pas trop. J’ai un peu le mal du pays.",
+      "von": 4.37,
+      "bis": 9.51
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Ah… Ta famille te manque ?",
+      "von": 9.96,
+      "bis": 11.4
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Oui, surtout ma petite sœur. Et mon chien aussi ! Hier soir, j’ai appelé mes parents, et après, j’étais triste.",
+      "von": 11.85,
+      "bis": 20.5
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Je comprends. Moi, l’année dernière, j’ai fait un échange en Allemagne. Au début, c’était pareil. La première semaine, c’était difficile.",
+      "von": 20.95,
+      "bis": 29.86
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Et après ?",
+      "von": 30.31,
+      "bis": 31.38
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Après, c’était la meilleure expérience de ma vie ! Ne t’en fais pas, c’est normal.",
+      "von": 31.83,
+      "bis": 36.68
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Tu as raison. Et puis, je fais des progrès en français, non ?",
+      "von": 37.13,
+      "bis": 41.33
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Oui, beaucoup ! Au début, tu ne parlais presque pas. Maintenant, tu parles tout le temps !",
+      "von": 41.78,
+      "bis": 47.46
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Ha ha ! Bon. Qu’est-ce qu’on fait ce soir ?",
+      "von": 47.91,
+      "bis": 52.46
+    },
+    {
+      "audio": 0,
+      "sprecher": "ines",
+      "text": "Mes copains organisent une petite fête. Tu viens ?",
+      "von": 52.91,
+      "bis": 55.67
+    },
+    {
+      "audio": 0,
+      "sprecher": "jonas",
+      "text": "Oui, d’accord. Ça va me faire du bien.",
+      "von": 56.12,
+      "bis": 60.14
+    }
+  ],
+  "items": [
+    {
+      "id": "v1",
+      "aussage": "Jonas est malade.",
+      "loesung": "faux",
+      "zeilen": [
+        1
+      ],
+      "stelle": [
+        4.37,
+        9.51
+      ]
+    },
+    {
+      "id": "v2",
+      "aussage": "La sœur de Jonas lui manque.",
+      "loesung": "vrai",
+      "zeilen": [
+        3
+      ],
+      "stelle": [
+        11.85,
+        20.5
+      ]
+    },
+    {
+      "id": "v3",
+      "aussage": "Jonas a téléphoné à ses parents hier soir.",
+      "loesung": "vrai",
+      "zeilen": [
+        3
+      ],
+      "stelle": [
+        11.85,
+        20.5
+      ]
+    },
+    {
+      "id": "v4",
+      "aussage": "Inès a déjà fait un échange.",
+      "loesung": "vrai",
+      "zeilen": [
+        4
+      ],
+      "stelle": [
+        20.95,
+        29.86
+      ]
+    },
+    {
+      "id": "v5",
+      "aussage": "Inès a passé son échange à Berlin.",
+      "loesung": "on_ne_sait_pas",
+      "zeilen": [
+        4
+      ],
+      "stelle": [
+        20.95,
+        29.86
+      ]
+    },
+    {
+      "id": "v6",
+      "aussage": "Jonas parle mieux français qu’au début.",
+      "loesung": "vrai",
+      "zeilen": [
+        8
+      ],
+      "stelle": [
+        41.78,
+        47.46
+      ]
+    },
+    {
+      "id": "v7",
+      "aussage": "Jonas ne veut pas aller à la fête.",
+      "loesung": "faux",
+      "zeilen": [
+        11
+      ],
+      "stelle": [
+        56.12,
+        60.14
+      ]
+    }
+  ],
+  "qualitaet": {
+    "bezug": "Gefühle während des Austauschs: Heimweh, trösten, Fortschritte",
+    "neue_strukturen": [
+      "Superlativ: la meilleure expérience",
+      "imparfait: c’était, j’étais, tu parlais",
+      "manquer à qn"
+    ],
+    "unsicher": [
+      "v6 verlangt den Schluss von «tu parles tout le temps» auf «mieux»: eventuell zu indirekt"
+    ]
+  }
+}
