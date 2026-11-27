@@ -3,7 +3,7 @@
   "lernjahr": 3,
   "einheit": "u1",
   "niveau": "A2",
-  "status": "entwurf",
+  "status": "freigegeben",
   "audioquelle": "eigen",
   "format": "qcm",
   "titel": "Enfin à Montpellier !",
@@ -23,7 +23,7 @@
     {
       "id": "jonas",
       "name": "Jonas",
-      "stimme": "pocket:charles"
+      "stimme": "pocket:paul"
     }
   ],
   "transkript": [
@@ -32,70 +32,70 @@
       "sprecher": "ines",
       "text": "Jonas ! Ici ! Salut, je suis Inès. Bienvenue à Montpellier !",
       "von": 0.6,
-      "bis": 5.42
+      "bis": 5.34
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Salut Inès ! Enfin ! Je suis content d’être là.",
-      "von": 5.87,
-      "bis": 9.91
+      "von": 5.79,
+      "bis": 9.67
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Tu as fait bon voyage ?",
-      "von": 10.36,
-      "bis": 11.74
+      "von": 10.12,
+      "bis": 11.5
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Bof… Mon train est arrivé à Lyon avec une heure de retard. Alors, le voyage a été plus long que prévu.",
-      "von": 12.19,
-      "bis": 18.55
+      "von": 11.95,
+      "bis": 17.59
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Oh, c’est nul ! Tu dois être fatigué.",
-      "von": 19.0,
-      "bis": 21.73
+      "von": 18.04,
+      "bis": 20.8
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Un peu, oui. Et j’ai faim, aussi.",
-      "von": 22.18,
-      "bis": 25.1
+      "von": 21.25,
+      "bis": 24.41
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Ne t’inquiète pas, ma mère prépare le dîner. On prend le tram, la maison est à vingt minutes.",
-      "von": 25.55,
-      "bis": 30.84
+      "von": 24.86,
+      "bis": 30.19
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "D’accord. Euh… tes parents parlent allemand ?",
-      "von": 31.29,
-      "bis": 34.61
+      "von": 30.64,
+      "bis": 35.0
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Non, pas du tout. Mais mon petit frère apprend l’allemand au collège. Il est très excité, il a préparé des phrases pour toi !",
-      "von": 35.06,
-      "bis": 42.21
+      "von": 35.45,
+      "bis": 42.64
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "C’est sympa ! Moi, je suis un peu timide au début, mais ça va aller.",
-      "von": 42.66,
-      "bis": 46.7
+      "von": 43.09,
+      "bis": 46.81
     }
   ],
   "items": [
@@ -112,8 +112,8 @@
         3
       ],
       "stelle": [
-        12.19,
-        18.55
+        11.95,
+        17.59
       ]
     },
     {
@@ -130,8 +130,8 @@
         5
       ],
       "stelle": [
-        19.0,
-        25.1
+        18.04,
+        24.41
       ]
     },
     {
@@ -147,8 +147,8 @@
         6
       ],
       "stelle": [
-        25.55,
-        30.84
+        24.86,
+        30.19
       ]
     },
     {
@@ -164,8 +164,8 @@
         8
       ],
       "stelle": [
-        35.06,
-        42.21
+        35.45,
+        42.64
       ]
     }
   ],

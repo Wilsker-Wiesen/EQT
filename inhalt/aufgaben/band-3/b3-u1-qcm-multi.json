@@ -3,7 +3,7 @@
   "lernjahr": 3,
   "einheit": "u1",
   "niveau": "A2",
-  "status": "entwurf",
+  "status": "freigegeben",
   "audioquelle": "eigen",
   "format": "qcm_multi",
   "titel": "Le programme de la semaine",
@@ -23,7 +23,7 @@
     {
       "id": "jonas",
       "name": "Jonas",
-      "stimme": "pocket:charles"
+      "stimme": "pocket:paul"
     }
   ],
   "transkript": [
@@ -32,77 +32,77 @@
       "sprecher": "jonas",
       "text": "Alors, qu’est-ce qu’on fait cette semaine ?",
       "von": 0.6,
-      "bis": 2.72
+      "bis": 2.64
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Lundi matin, tu viens avec moi au lycée. Tu vas voir, les journées sont plus longues qu’en Allemagne : on finit à cinq heures.",
-      "von": 3.17,
-      "bis": 10.64
+      "von": 3.09,
+      "bis": 10.49
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Cinq heures ? Ouh là !",
-      "von": 11.09,
-      "bis": 12.97
+      "von": 10.94,
+      "bis": 12.74
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Mais à midi, on mange ensemble à la cantine, c’est pas mal. Mardi après-midi, tous les correspondants visitent le centre-ville avec les profs.",
-      "von": 13.42,
-      "bis": 20.81
+      "von": 13.19,
+      "bis": 20.58
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Et mercredi ?",
-      "von": 21.26,
-      "bis": 22.82
+      "von": 21.03,
+      "bis": 22.75
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Le mercredi après-midi, on n’a pas cours. Je fais du basket, tu peux venir si tu veux. Ou on fait du skate avec mes copains.",
-      "von": 23.27,
-      "bis": 30.17
+      "von": 23.2,
+      "bis": 30.06
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Plutôt le skate ! Je suis nul en basket.",
-      "von": 30.62,
-      "bis": 33.62
+      "von": 30.51,
+      "bis": 33.75
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "D’accord. Jeudi, c’est la journée à la mer : on va à la plage en bus avec toute la classe.",
-      "von": 34.07,
-      "bis": 39.76
+      "von": 34.2,
+      "bis": 39.67
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Génial ! Et le week-end ?",
-      "von": 40.21,
-      "bis": 43.05
+      "von": 40.12,
+      "bis": 42.88
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Samedi, on va chez ma grand-mère, à la campagne. C’est à une heure de Montpellier. Elle a des chevaux !",
-      "von": 43.5,
-      "bis": 49.29
+      "von": 43.33,
+      "bis": 49.14
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Des chevaux ? Incroyable !",
-      "von": 49.74,
-      "bis": 51.94
+      "von": 49.59,
+      "bis": 51.79
     }
   ],
   "items": [
@@ -124,8 +124,8 @@
         3
       ],
       "stelle": [
-        3.17,
-        20.81
+        3.09,
+        20.58
       ]
     },
     {
@@ -145,8 +145,8 @@
         5
       ],
       "stelle": [
-        23.27,
-        30.17
+        23.2,
+        30.06
       ]
     },
     {
@@ -169,8 +169,8 @@
         9
       ],
       "stelle": [
-        13.42,
-        49.29
+        13.19,
+        49.14
       ]
     }
   ],
