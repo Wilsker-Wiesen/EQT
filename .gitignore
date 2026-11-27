@@ -19,3 +19,7 @@ dist/
 __pycache__/
 *.pyc
 .venv/
+
+# Interne Arbeitsdateien (Übergabe, Austausch mit der Material-Sitzung)
+PROMPT_fuer_Claude_Code.md
+_Briefkasten/
