@@ -3,8 +3,9 @@
     .venv/bin/python tools/vertone.py inhalt/aufgaben/band-3/b3-u1-qcm.json [...]
     .venv/bin/python tools/vertone.py inhalt/aufgaben          # alle eigenen Aufgaben
 
-- Stimme je Sprecher in `sprecher[].stimme`: «fr_FR-siwis-medium» oder «fr_FR-mls-medium#46»
-  (Zahl = speaker_id). Modelle liegen in .stimmen/ (nicht im Repository).
+- Stimme je Sprecher in `sprecher[].stimme`:
+  «fr_FR-siwis-medium» (Piper) oder «pocket:charles» (Kyutai Pocket TTS, Katalogstimme).
+  Modelle und Programm liegen in .stimmen/ (nicht im Repository).
 - Schreibt public/<audio.pfad> als MP3 (ffmpeg nötig).
 - Setzt `von`/`bis` jeder Transkriptzeile und `stelle` jedes Items mit `zeilen`.
 """
@@ -41,10 +42,29 @@ def stimme(spec: str) -> tuple[PiperVoice, int | None]:
     return _modelle[name], (int(sid) if sid else None)
 
 
+POCKET = STIMMEN / "pocket" / "pocket-tts-3.3.0-x86_64-apple-darwin" / "pocket-tts"
+
+
+def sprich_pocket(name: str, text: str) -> tuple[int, np.ndarray]:
+    """Kyutai Pocket TTS (CC BY 4.0), Katalogstimme, französisches Modell."""
+    if not POCKET.exists():
+        sys.exit(f"Pocket TTS fehlt: {POCKET}")
+    with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
+        subprocess.run(
+            [str(POCKET), "generate", "-q", "--language", "french", "--voice", name,
+             "--text", text, "--output-path", tmp.name],
+            check=True,
+        )
+        with wave.open(tmp.name) as w:
+            return w.getframerate(), np.frombuffer(w.readframes(w.getnframes()), np.int16)
+
+
 def sprich(spec: str, text: str) -> tuple[int, np.ndarray]:
-    v, sid = stimme(spec)
     # typografische Apostrophe und Guillemets stören die Phonemisierung
     text = text.replace("’", "'").replace("«", "").replace("»", "")
+    if spec.startswith("pocket:"):
+        return sprich_pocket(spec.removeprefix("pocket:"), text)
+    v, sid = stimme(spec)
     buf = io.BytesIO()
     with wave.open(buf, "wb") as w:
         v.synthesize_wav(text, w, syn_config=SynthesisConfig(speaker_id=sid))

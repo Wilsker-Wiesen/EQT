@@ -23,7 +23,7 @@
     {
       "id": "jonas",
       "name": "Jonas",
-      "stimme": "fr_FR-mls-medium#46"
+      "stimme": "pocket:charles"
     }
   ],
   "transkript": [
@@ -32,70 +32,70 @@
       "sprecher": "ines",
       "text": "Jonas ! Ici ! Salut, je suis Inès. Bienvenue à Montpellier !",
       "von": 0.6,
-      "bis": 5.37
+      "bis": 5.36
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Salut Inès ! Enfin ! Je suis content d’être là.",
-      "von": 5.82,
-      "bis": 11.05
+      "von": 5.81,
+      "bis": 9.85
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Tu as fait bon voyage ?",
-      "von": 11.5,
-      "bis": 12.89
+      "von": 10.3,
+      "bis": 11.62
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Bof… Le train avait une heure de retard à Lyon. Le voyage était plus long que prévu.",
-      "von": 13.34,
-      "bis": 18.31
+      "von": 12.07,
+      "bis": 17.55
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Oh, c’est nul ! Tu dois être fatigué.",
-      "von": 18.76,
-      "bis": 21.48
+      "von": 18.0,
+      "bis": 20.74
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Un peu, oui. Et j’ai faim, aussi.",
-      "von": 21.93,
-      "bis": 25.04
+      "von": 21.19,
+      "bis": 24.11
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Ne t’inquiète pas, ma mère prépare le dîner. On prend le tram, la maison est à vingt minutes.",
-      "von": 25.49,
-      "bis": 30.92
+      "von": 24.56,
+      "bis": 29.93
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "D’accord. Euh… tes parents parlent allemand ?",
-      "von": 31.37,
-      "bis": 35.36
+      "von": 30.38,
+      "bis": 33.7
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Non, pas du tout. Mais mon petit frère apprend l’allemand au collège. Il est très excité, il a préparé des phrases pour toi !",
-      "von": 35.81,
-      "bis": 43.11
+      "von": 34.15,
+      "bis": 41.23
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "C’est sympa ! Moi, je suis un peu timide au début, mais ça va aller.",
-      "von": 43.56,
-      "bis": 48.55
+      "von": 41.68,
+      "bis": 45.72
     }
   ],
   "items": [
@@ -112,8 +112,8 @@
         3
       ],
       "stelle": [
-        13.34,
-        18.31
+        12.07,
+        17.55
       ]
     },
     {
@@ -130,8 +130,8 @@
         5
       ],
       "stelle": [
-        18.76,
-        25.04
+        18.0,
+        24.11
       ]
     },
     {
@@ -147,8 +147,8 @@
         6
       ],
       "stelle": [
-        25.49,
-        30.92
+        24.56,
+        29.93
       ]
     },
     {
@@ -164,8 +164,8 @@
         8
       ],
       "stelle": [
-        35.81,
-        43.11
+        34.15,
+        41.23
       ]
     }
   ],

@@ -36,7 +36,7 @@
     {
       "id": "m",
       "name": "Annonce (voix d’homme)",
-      "stimme": "fr_FR-mls-medium#46"
+      "stimme": "pocket:charles"
     }
   ],
   "ziele": [
@@ -67,28 +67,28 @@
       "sprecher": "f",
       "text": "Mesdames et messieurs, le TGV numéro 6214 à destination de Paris partira avec un retard de quinze minutes. Départ voie B. Merci de votre compréhension.",
       "von": 0.6,
-      "bis": 10.76
+      "bis": 10.9
     },
     {
       "audio": 1,
       "sprecher": "m",
       "text": "Prochain arrêt : Place de la Comédie. Pour la ligne deux, changez ici. Attention à la fermeture des portes.",
       "von": 0.6,
-      "bis": 9.83
+      "bis": 7.44
     },
     {
       "audio": 2,
       "sprecher": "f",
       "text": "Votre attention, s’il vous plaît. Les passagers du vol pour Francfort sont priés de se présenter à la porte douze. Embarquement immédiat.",
       "von": 0.6,
-      "bis": 7.93
+      "bis": 7.98
     },
     {
       "audio": 3,
       "sprecher": "m",
       "text": "Bonjour à tous. Les élèves allemands de l’échange sont attendus à dix heures dans la salle 105, avec leurs correspondants. Merci !",
       "von": 0.6,
-      "bis": 7.82
+      "bis": 8.88
     }
   ],
   "items": [
@@ -101,7 +101,7 @@
       ],
       "stelle": [
         0.6,
-        10.76
+        10.9
       ]
     },
     {
@@ -113,7 +113,7 @@
       ],
       "stelle": [
         0.6,
-        9.83
+        7.44
       ]
     },
     {
@@ -125,7 +125,7 @@
       ],
       "stelle": [
         0.6,
-        7.93
+        7.98
       ]
     },
     {
@@ -137,7 +137,7 @@
       ],
       "stelle": [
         0.6,
-        7.82
+        8.88
       ]
     }
   ],

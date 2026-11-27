@@ -23,7 +23,7 @@
     {
       "id": "jonas",
       "name": "Jonas",
-      "stimme": "fr_FR-mls-medium#46"
+      "stimme": "pocket:charles"
     }
   ],
   "mit_on_ne_sait_pas": true,
@@ -33,84 +33,84 @@
       "sprecher": "ines",
       "text": "Jonas, ça va ? Tu ne dis rien depuis ce matin.",
       "von": 0.6,
-      "bis": 3.92
+      "bis": 3.93
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Bof… Ça ne va pas trop. J’ai un peu le mal du pays.",
-      "von": 4.37,
-      "bis": 9.51
+      "von": 4.38,
+      "bis": 8.02
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Ah… Ta famille te manque ?",
-      "von": 9.96,
-      "bis": 11.4
+      "von": 8.47,
+      "bis": 9.9
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Oui, surtout ma petite sœur. Et mon chien aussi ! Hier soir, j’ai appelé mes parents, et après, j’étais triste.",
-      "von": 11.85,
-      "bis": 20.5
+      "von": 10.35,
+      "bis": 17.67
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Je comprends. Moi, l’année dernière, j’ai fait un échange en Allemagne. Au début, c’était pareil. La première semaine, c’était difficile.",
-      "von": 20.95,
-      "bis": 29.86
+      "von": 18.12,
+      "bis": 26.75
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Et après ?",
-      "von": 30.31,
-      "bis": 31.38
+      "von": 27.2,
+      "bis": 28.76
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Après, c’était la meilleure expérience de ma vie ! Ne t’en fais pas, c’est normal.",
-      "von": 31.83,
-      "bis": 36.68
+      "von": 29.21,
+      "bis": 33.87
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Tu as raison. Et puis, je fais des progrès en français, non ?",
-      "von": 37.13,
-      "bis": 41.33
+      "von": 34.32,
+      "bis": 37.72
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Oui, beaucoup ! Au début, tu ne parlais presque pas. Maintenant, tu parles tout le temps !",
-      "von": 41.78,
-      "bis": 47.46
+      "von": 38.17,
+      "bis": 43.89
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Ha ha ! Bon. Qu’est-ce qu’on fait ce soir ?",
-      "von": 47.91,
-      "bis": 52.46
+      "von": 44.34,
+      "bis": 47.98
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Mes copains organisent une petite fête. Tu viens ?",
-      "von": 52.91,
-      "bis": 55.67
+      "von": 48.43,
+      "bis": 51.21
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Oui, d’accord. Ça va me faire du bien.",
-      "von": 56.12,
-      "bis": 60.14
+      "von": 51.66,
+      "bis": 54.18
     }
   ],
   "items": [
@@ -122,8 +122,8 @@
         1
       ],
       "stelle": [
-        4.37,
-        9.51
+        4.38,
+        8.02
       ]
     },
     {
@@ -134,8 +134,8 @@
         3
       ],
       "stelle": [
-        11.85,
-        20.5
+        10.35,
+        17.67
       ]
     },
     {
@@ -146,8 +146,8 @@
         3
       ],
       "stelle": [
-        11.85,
-        20.5
+        10.35,
+        17.67
       ]
     },
     {
@@ -158,8 +158,8 @@
         4
       ],
       "stelle": [
-        20.95,
-        29.86
+        18.12,
+        26.75
       ]
     },
     {
@@ -170,8 +170,8 @@
         4
       ],
       "stelle": [
-        20.95,
-        29.86
+        18.12,
+        26.75
       ]
     },
     {
@@ -182,8 +182,8 @@
         8
       ],
       "stelle": [
-        41.78,
-        47.46
+        38.17,
+        43.89
       ]
     },
     {
@@ -194,8 +194,8 @@
         11
       ],
       "stelle": [
-        56.12,
-        60.14
+        51.66,
+        54.18
       ]
     }
   ],
