@@ -59,8 +59,53 @@ def sprich_pocket(name: str, text: str) -> tuple[int, np.ndarray]:
             return w.getframerate(), np.frombuffer(w.readframes(w.getnframes()), np.int16)
 
 
-def sprich(spec: str, text: str) -> tuple[int, np.ndarray]:
-    # typografische Apostrophe und Guillemets stören die Phonemisierung
+REFERENZ_STIMME = "fr_FR-siwis-medium"
+REFERENZ_SAETZE = [
+    "Oui, merci. Le train a été un peu long, mais ça va. Je suis juste un peu fatigué.",
+    "Ne t'inquiète pas. Ce soir, on mange à la maison, et demain, on fait une balade en ville.",
+    "Super ! Est-ce que tu peux répéter plus lentement, s'il te plaît ?",
+]
+EQ_SR = 22050
+EQ_GRENZEN_DB = (-6.0, 12.0)
+_eq: dict[str, np.ndarray] = {}
+
+
+def _ltas(spec: str) -> tuple[np.ndarray, np.ndarray]:
+    """Langzeitspektrum einer Stimme über feste Referenzsätze."""
+    from scipy.signal import welch
+
+    teile = [resample(x, r, EQ_SR) for r, x in (sprich_roh(spec, t) for t in REFERENZ_SAETZE)]
+    return welch(np.concatenate(teile).astype(np.float64) / 32768, EQ_SR, nperseg=1024)
+
+
+def eq_kurve(spec: str) -> np.ndarray:
+    """FIR-Filter, das das Klangbild einer Stimme an siwis angleicht (wird in .stimmen/eq gespeichert)."""
+    if spec in _eq:
+        return _eq[spec]
+    import hashlib
+
+    from scipy.signal import firwin2
+
+    cache = STIMMEN / "eq" / (hashlib.sha1(spec.encode()).hexdigest()[:12] + ".npy")
+    if cache.exists():
+        _eq[spec] = np.load(cache)
+        return _eq[spec]
+    f, p_ref = _ltas(REFERENZ_STIMME)
+    _, p = _ltas(spec)
+    g_db = 10 * np.log10((p_ref + 1e-12) / (p + 1e-12))
+    # über Dritteloktaven glätten, Pegel herausrechnen (Lautheit regelt angleichen), begrenzen
+    glatt = np.array([g_db[(f >= fc / 1.12) & (f <= fc * 1.12)].mean() if fc > 0 else g_db[0] for fc in f])
+    glatt -= glatt[(f > 300) & (f < 1500)].mean()
+    glatt = np.clip(glatt, *EQ_GRENZEN_DB)
+    glatt[f < 80] = 0
+    fir = firwin2(511, f / (EQ_SR / 2), 10 ** (glatt / 20))
+    cache.parent.mkdir(parents=True, exist_ok=True)
+    np.save(cache, fir)
+    _eq[spec] = fir
+    return fir
+
+
+def sprich_roh(spec: str, text: str) -> tuple[int, np.ndarray]:
     text = text.replace("’", "'").replace("«", "").replace("»", "")
     if spec.startswith("pocket:"):
         return sprich_pocket(spec.removeprefix("pocket:"), text)
@@ -73,7 +118,20 @@ def sprich(spec: str, text: str) -> tuple[int, np.ndarray]:
         return w.getframerate(), np.frombuffer(w.readframes(w.getnframes()), np.int16)
 
 
-ZIEL_DBFS = -20.0  # gleiche Lautheit für alle Stimmen (RMS der gesprochenen Teile)
+def sprich(spec: str, text: str) -> tuple[int, np.ndarray]:
+    """Synthese; Pocket-Stimmen werden klanglich an siwis angeglichen (heller, deutlicher)."""
+    if not spec.startswith("pocket:"):
+        return sprich_roh(spec, text)
+    from scipy.signal import fftconvolve
+
+    r, x = sprich_roh(spec, text)
+    x = resample(x, r, EQ_SR).astype(np.float64)
+    y = fftconvolve(x, eq_kurve(spec), mode="same")
+    return EQ_SR, np.clip(y, -32768, 32767).astype(np.int16)
+
+
+ZIEL_DBFS = -20.0  # Ersatz: RMS der gesprochenen Teile
+ZIEL_LUFS = -22.0  # gleiche wahrgenommene Lautheit für alle Stimmen
 SPITZE = 0.89  # höchstens -1 dBFS
 
 
@@ -88,6 +146,15 @@ def angleichen(x: np.ndarray, sr: int) -> np.ndarray:
         return x
     pegel = np.sqrt((aktiv**2).mean())
     g = 10 ** (ZIEL_DBFS / 20) / pegel
+    # wahrgenommene Lautheit (EBU R128) statt reinem RMS, falls die Zeile lang genug ist
+    try:
+        import pyloudnorm as pyln
+
+        lufs = pyln.Meter(sr).integrated_loudness(f)
+        if np.isfinite(lufs):
+            g = 10 ** ((ZIEL_LUFS - lufs) / 20)
+    except (ImportError, ValueError):
+        pass
     y = f * g
     # weiche Begrenzung statt Absenken der ganzen Zeile, damit leise Stimmen nicht leise bleiben
     y = np.where(np.abs(y) > SPITZE * 0.8, np.sign(y) * (SPITZE * 0.8 + (SPITZE * 0.2) * np.tanh((np.abs(y) - SPITZE * 0.8) / (SPITZE * 0.2))), y)
