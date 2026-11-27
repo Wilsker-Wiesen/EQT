@@ -1,0 +1,45 @@
+{
+  "1": [
+    { "id": "u1", "name": "Unité 1" },
+    { "id": "u2", "name": "Unité 2" },
+    { "id": "p1", "name": "Plateau 1" },
+    { "id": "u3", "name": "Unité 3" },
+    { "id": "u4", "name": "Unité 4" },
+    { "id": "p2", "name": "Plateau 2" },
+    { "id": "u5", "name": "Unité 5" },
+    { "id": "u6", "name": "Unité 6" },
+    { "id": "p3", "name": "Plateau 3" }
+  ],
+  "2": [
+    { "id": "u1", "name": "Unité 1" },
+    { "id": "u2", "name": "Unité 2" },
+    { "id": "p1", "name": "Plateau 1" },
+    { "id": "u3", "name": "Unité 3" },
+    { "id": "u4", "name": "Unité 4" },
+    { "id": "p2", "name": "Plateau 2" },
+    { "id": "u5", "name": "Unité 5" },
+    { "id": "u6", "name": "Unité 6" },
+    { "id": "m1", "name": "Module" }
+  ],
+  "3": [
+    { "id": "u1", "name": "Unité 1" },
+    { "id": "u2", "name": "Unité 2" },
+    { "id": "p1", "name": "Plateau 1" },
+    { "id": "u3", "name": "Unité 3" },
+    { "id": "u4", "name": "Unité 4" },
+    { "id": "u5", "name": "Unité 5" },
+    { "id": "p2", "name": "Plateau 2" },
+    { "id": "m1", "name": "Module 1" },
+    { "id": "m2", "name": "Module 2" }
+  ],
+  "4": [
+    { "id": "u1", "name": "Unité 1" },
+    { "id": "u2", "name": "Unité 2" },
+    { "id": "p1", "name": "Plateau 1" },
+    { "id": "u3", "name": "Unité 3" },
+    { "id": "u4", "name": "Unité 4" },
+    { "id": "p2", "name": "Plateau 2" },
+    { "id": "m1", "name": "Module 1" },
+    { "id": "m2", "name": "Module 2" }
+  ]
+}
