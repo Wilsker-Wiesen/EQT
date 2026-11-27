@@ -73,6 +73,27 @@ def sprich(spec: str, text: str) -> tuple[int, np.ndarray]:
         return w.getframerate(), np.frombuffer(w.readframes(w.getnframes()), np.int16)
 
 
+ZIEL_DBFS = -20.0  # gleiche Lautheit für alle Stimmen (RMS der gesprochenen Teile)
+SPITZE = 0.89  # höchstens -1 dBFS
+
+
+def angleichen(x: np.ndarray, sr: int) -> np.ndarray:
+    """Bringt eine Zeile auf ZIEL_DBFS, gemessen nur über gesprochene 20-ms-Fenster."""
+    f = x.astype(np.float64) / 32768
+    n = max(1, int(sr * 0.02))
+    fenster = f[: len(f) // n * n].reshape(-1, n)
+    rms = np.sqrt((fenster**2).mean(axis=1))
+    aktiv = rms[rms > rms.max() * 0.1] if rms.size else rms
+    if aktiv.size == 0:
+        return x
+    pegel = np.sqrt((aktiv**2).mean())
+    g = 10 ** (ZIEL_DBFS / 20) / pegel
+    y = f * g
+    # weiche Begrenzung statt Absenken der ganzen Zeile, damit leise Stimmen nicht leise bleiben
+    y = np.where(np.abs(y) > SPITZE * 0.8, np.sign(y) * (SPITZE * 0.8 + (SPITZE * 0.2) * np.tanh((np.abs(y) - SPITZE * 0.8) / (SPITZE * 0.2))), y)
+    return (np.clip(y, -1, 1) * 32767).astype(np.int16)
+
+
 def resample(x: np.ndarray, von: int, nach: int) -> np.ndarray:
     if von == nach:
         return x
@@ -102,7 +123,7 @@ def vertone(datei: Path) -> None:
                 teile.append(np.zeros(int(sr * p), np.int16))
                 t += p
             r, x = sprich(spec, zeile["text"])
-            x = resample(x, r, sr)
+            x = angleichen(resample(x, r, sr), sr)
             zeile["von"] = round(t, 2)
             t += len(x) / sr
             zeile["bis"] = round(t, 2)

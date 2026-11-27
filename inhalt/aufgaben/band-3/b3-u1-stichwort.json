@@ -39,63 +39,63 @@
       "sprecher": "ines",
       "text": "Quoi ? Tu es où, là ?",
       "von": 5.81,
-      "bis": 7.71
+      "bis": 7.76
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Je ne sais pas… Il y a une grande place avec une fontaine et un cinéma.",
-      "von": 8.16,
-      "bis": 12.52
+      "von": 8.21,
+      "bis": 12.57
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Ah, c’est sûrement la place de la Comédie. Ne bouge pas ! Ton portable a encore de la batterie ?",
-      "von": 12.97,
-      "bis": 18.57
+      "von": 13.02,
+      "bis": 18.66
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Oui, mais seulement douze pour cent. Je n’ai pas mon chargeur.",
-      "von": 19.02,
-      "bis": 23.14
+      "von": 19.11,
+      "bis": 23.23
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "D’accord, alors on fait vite. Je finis le basket à cinq heures et quart. Je prends le tram, la ligne un, et j’arrive vers six heures moins le quart.",
-      "von": 23.59,
-      "bis": 31.32
+      "von": 23.68,
+      "bis": 31.51
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Six heures moins le quart… OK. Je t’attends devant le cinéma ?",
-      "von": 31.77,
-      "bis": 36.29
+      "von": 31.96,
+      "bis": 36.48
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Non, plutôt devant l’office de tourisme, c’est juste à côté.",
-      "von": 36.74,
-      "bis": 40.28
+      "von": 36.93,
+      "bis": 40.42
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Bon, d’accord. Et mon groupe ?",
-      "von": 40.73,
-      "bis": 43.57
+      "von": 40.87,
+      "bis": 43.71
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "J’écris un message à ton prof. Et toi, achète-toi une glace, ça va te calmer !",
-      "von": 44.02,
-      "bis": 48.92
+      "von": 44.16,
+      "bis": 49.03
     }
   ],
   "items": [
@@ -112,8 +112,8 @@
         3
       ],
       "stelle": [
-        12.97,
-        18.57
+        13.02,
+        18.66
       ]
     },
     {
@@ -129,8 +129,8 @@
         4
       ],
       "stelle": [
-        19.02,
-        23.14
+        19.11,
+        23.23
       ]
     },
     {
@@ -148,8 +148,8 @@
         5
       ],
       "stelle": [
-        23.59,
-        31.32
+        23.68,
+        31.51
       ]
     },
     {
@@ -166,8 +166,8 @@
         5
       ],
       "stelle": [
-        23.59,
-        31.32
+        23.68,
+        31.51
       ]
     },
     {
@@ -185,8 +185,8 @@
         5
       ],
       "stelle": [
-        23.59,
-        31.32
+        23.68,
+        31.51
       ]
     },
     {
@@ -202,8 +202,8 @@
         7
       ],
       "stelle": [
-        36.74,
-        40.28
+        36.93,
+        40.42
       ]
     }
   ],

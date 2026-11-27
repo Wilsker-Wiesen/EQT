@@ -65,9 +65,9 @@
     {
       "audio": 0,
       "sprecher": "f",
-      "text": "Mesdames et messieurs, le TGV numéro 6214 à destination de Paris partira avec un retard de quinze minutes. Départ voie B. Merci de votre compréhension.",
+      "text": "Mesdames et messieurs, le TGV numéro 6214 à destination de Paris va partir avec quinze minutes de retard. Départ voie B. Merci de votre compréhension.",
       "von": 0.6,
-      "bis": 10.9
+      "bis": 10.39
     },
     {
       "audio": 1,
@@ -81,7 +81,7 @@
       "sprecher": "f",
       "text": "Votre attention, s’il vous plaît. Les passagers du vol pour Francfort sont priés de se présenter à la porte douze. Embarquement immédiat.",
       "von": 0.6,
-      "bis": 7.98
+      "bis": 7.86
     },
     {
       "audio": 3,
@@ -101,7 +101,7 @@
       ],
       "stelle": [
         0.6,
-        10.9
+        10.39
       ]
     },
     {
@@ -125,7 +125,7 @@
       ],
       "stelle": [
         0.6,
-        7.98
+        7.86
       ]
     },
     {
@@ -144,11 +144,11 @@
   "qualitaet": {
     "bezug": "Sich zurechtfinden: Durchsagen an Bahnhof, Tram, Flughafen, Schule",
     "neue_strukturen": [
-      "Durchsagesprache: partira, sont priés de, embarquement immédiat"
+      "Durchsagesprache: sont priés de, embarquement immédiat (über Schlüsselwörter lösbar)"
     ],
     "unsicher": [
-      "«sont priés de se présenter» ist eher B1, wird aber über Flughafen-Schlüsselwörter (vol, porte, embarquement) lösbar",
       "TTS spricht «6214» und «105» eventuell nicht natürlich"
-    ]
+    ],
+    "notiz": "Kein imparfait (erst Unité 2) und kein futur simple (erst Unité 4)."
   }
 }

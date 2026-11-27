@@ -32,79 +32,79 @@
       "sprecher": "ines",
       "text": "Jonas ! Ici ! Salut, je suis Inès. Bienvenue à Montpellier !",
       "von": 0.6,
-      "bis": 5.36
+      "bis": 5.42
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Salut Inès ! Enfin ! Je suis content d’être là.",
-      "von": 5.81,
-      "bis": 9.85
+      "von": 5.87,
+      "bis": 9.91
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Tu as fait bon voyage ?",
-      "von": 10.3,
-      "bis": 11.62
+      "von": 10.36,
+      "bis": 11.74
     },
     {
       "audio": 0,
       "sprecher": "jonas",
-      "text": "Bof… Le train avait une heure de retard à Lyon. Le voyage était plus long que prévu.",
-      "von": 12.07,
-      "bis": 17.55
+      "text": "Bof… Mon train est arrivé à Lyon avec une heure de retard. Alors, le voyage a été plus long que prévu.",
+      "von": 12.19,
+      "bis": 18.55
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Oh, c’est nul ! Tu dois être fatigué.",
-      "von": 18.0,
-      "bis": 20.74
+      "von": 19.0,
+      "bis": 21.73
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Un peu, oui. Et j’ai faim, aussi.",
-      "von": 21.19,
-      "bis": 24.11
+      "von": 22.18,
+      "bis": 25.1
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Ne t’inquiète pas, ma mère prépare le dîner. On prend le tram, la maison est à vingt minutes.",
-      "von": 24.56,
-      "bis": 29.93
+      "von": 25.55,
+      "bis": 30.84
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "D’accord. Euh… tes parents parlent allemand ?",
-      "von": 30.38,
-      "bis": 33.7
+      "von": 31.29,
+      "bis": 34.61
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Non, pas du tout. Mais mon petit frère apprend l’allemand au collège. Il est très excité, il a préparé des phrases pour toi !",
-      "von": 34.15,
-      "bis": 41.23
+      "von": 35.06,
+      "bis": 42.21
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "C’est sympa ! Moi, je suis un peu timide au début, mais ça va aller.",
-      "von": 41.68,
-      "bis": 45.72
+      "von": 42.66,
+      "bis": 46.7
     }
   ],
   "items": [
     {
       "id": "q1",
-      "frage": "Pourquoi est-ce que le voyage de Jonas était long ?",
+      "frage": "Pourquoi est-ce que le voyage de Jonas a été long ?",
       "optionen": [
         "Il a raté son train.",
-        "Le train avait du retard.",
+        "Le train a eu du retard.",
         "Il a pris le bus."
       ],
       "loesung": 1,
@@ -112,8 +112,8 @@
         3
       ],
       "stelle": [
-        12.07,
-        17.55
+        12.19,
+        18.55
       ]
     },
     {
@@ -130,8 +130,8 @@
         5
       ],
       "stelle": [
-        18.0,
-        24.11
+        19.0,
+        25.1
       ]
     },
     {
@@ -147,8 +147,8 @@
         6
       ],
       "stelle": [
-        24.56,
-        29.93
+        25.55,
+        30.84
       ]
     },
     {
@@ -164,20 +164,19 @@
         8
       ],
       "stelle": [
-        34.15,
-        41.23
+        35.06,
+        42.21
       ]
     }
   ],
   "qualitaet": {
     "bezug": "Ankunft beim Austausch, Gastfamilie, Gefühle (fatigué, timide, excité)",
     "neue_strukturen": [
-      "Komparativ: plus long que prévu",
-      "imparfait: avait, était"
+      "Komparativ: plus long que prévu"
     ],
     "unsicher": [
-      "Ist das imparfait in Band 3, Unité 1 schon bekannt?",
       "q2: «malade» als Distraktor vielleicht zu leicht"
-    ]
+    ],
+    "notiz": "Kein imparfait (erst Unité 2) und kein futur simple (erst Unité 4)."
   }
 }

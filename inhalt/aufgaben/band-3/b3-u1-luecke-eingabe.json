@@ -32,48 +32,48 @@
       "sprecher": "garnier",
       "text": "Jonas, tu veux encore un peu de salade ?",
       "von": 0.6,
-      "bis": 3.33
+      "bis": 3.42
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Non merci, madame, ça va. Mais je veux bien encore du pain, s’il vous plaît.",
-      "von": 3.78,
-      "bis": 8.62
+      "von": 3.87,
+      "bis": 8.71
     },
     {
       "audio": 0,
       "sprecher": "garnier",
       "text": "Voilà. Après, il y a du fromage. Tu aimes le fromage ?",
-      "von": 9.07,
-      "bis": 13.09
+      "von": 9.16,
+      "bis": 13.25
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Oui, beaucoup ! Surtout le camembert.",
-      "von": 13.54,
-      "bis": 16.38
+      "von": 13.7,
+      "bis": 16.54
     },
     {
       "audio": 0,
       "sprecher": "garnier",
       "text": "Et le poulet, c’est bon ?",
-      "von": 16.83,
-      "bis": 18.51
+      "von": 16.99,
+      "bis": 18.57
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "C’est délicieux ! Chez moi, le dimanche, on mange souvent des pâtes. Mon père adore faire la cuisine.",
-      "von": 18.96,
-      "bis": 25.24
+      "von": 19.02,
+      "bis": 25.3
     },
     {
       "audio": 0,
       "sprecher": "garnier",
       "text": "Et pour le dessert, j’ai fait une tarte aux pommes.",
-      "von": 25.69,
+      "von": 25.75,
       "bis": 28.46
     },
     {
@@ -88,7 +88,7 @@
       "sprecher": "garnier",
       "text": "C’est gentil, Jonas. Tu peux apporter les verres, s’il te plaît ?",
       "von": 34.84,
-      "bis": 38.73
+      "bis": 38.74
     }
   ],
   "items": [
@@ -104,7 +104,7 @@
       ],
       "stelle": [
         0.6,
-        8.62
+        8.71
       ]
     },
     {
@@ -117,8 +117,8 @@
         1
       ],
       "stelle": [
-        3.78,
-        8.62
+        3.87,
+        8.71
       ]
     },
     {
@@ -131,8 +131,8 @@
         2
       ],
       "stelle": [
-        9.07,
-        13.09
+        9.16,
+        13.25
       ]
     },
     {
@@ -145,8 +145,8 @@
         5
       ],
       "stelle": [
-        18.96,
-        25.24
+        19.02,
+        25.3
       ]
     },
     {
@@ -159,7 +159,7 @@
         6
       ],
       "stelle": [
-        25.69,
+        25.75,
         28.46
       ]
     },
@@ -174,7 +174,7 @@
       ],
       "stelle": [
         34.84,
-        38.73
+        38.74
       ]
     }
   ],
