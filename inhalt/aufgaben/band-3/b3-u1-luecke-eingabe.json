@@ -23,7 +23,7 @@
     {
       "id": "jonas",
       "name": "Jonas",
-      "stimme": "pocket:paul"
+      "stimme": "pocket:cml2114"
     }
   ],
   "transkript": [
@@ -32,63 +32,63 @@
       "sprecher": "garnier",
       "text": "Jonas, tu veux encore un peu de salade ?",
       "von": 0.6,
-      "bis": 3.37
+      "bis": 3.43
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Non merci, madame, ça va. Mais je veux bien encore du pain, s’il vous plaît.",
-      "von": 3.82,
-      "bis": 8.1
+      "von": 3.88,
+      "bis": 8.48
     },
     {
       "audio": 0,
       "sprecher": "garnier",
       "text": "Voilà. Après, il y a du fromage. Tu aimes le fromage ?",
-      "von": 8.55,
-      "bis": 12.62
+      "von": 8.93,
+      "bis": 12.96
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Oui, beaucoup ! Surtout le camembert.",
-      "von": 13.07,
-      "bis": 15.99
+      "von": 13.41,
+      "bis": 16.33
     },
     {
       "audio": 0,
       "sprecher": "garnier",
       "text": "Et le poulet, c’est bon ?",
-      "von": 16.44,
-      "bis": 18.06
+      "von": 16.78,
+      "bis": 18.38
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "C’est délicieux ! Chez moi, le dimanche, on mange souvent des pâtes. Mon père adore faire la cuisine.",
-      "von": 18.51,
-      "bis": 24.63
+      "von": 18.83,
+      "bis": 25.11
     },
     {
       "audio": 0,
       "sprecher": "garnier",
       "text": "Et pour le dessert, j’ai fait une tarte aux pommes.",
-      "von": 25.08,
-      "bis": 27.78
+      "von": 25.56,
+      "bis": 28.27
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Hmm, super ! Est-ce que je peux vous aider ? Je peux mettre la table, ou faire la vaisselle après.",
-      "von": 28.23,
-      "bis": 33.39
+      "von": 28.72,
+      "bis": 35.24
     },
     {
       "audio": 0,
       "sprecher": "garnier",
       "text": "C’est gentil, Jonas. Tu peux apporter les verres, s’il te plaît ?",
-      "von": 33.84,
-      "bis": 37.8
+      "von": 35.69,
+      "bis": 39.65
     }
   ],
   "items": [
@@ -104,7 +104,7 @@
       ],
       "stelle": [
         0.6,
-        8.1
+        8.48
       ]
     },
     {
@@ -117,8 +117,8 @@
         1
       ],
       "stelle": [
-        3.82,
-        8.1
+        3.88,
+        8.48
       ]
     },
     {
@@ -131,8 +131,8 @@
         2
       ],
       "stelle": [
-        8.55,
-        12.62
+        8.93,
+        12.96
       ]
     },
     {
@@ -145,8 +145,8 @@
         5
       ],
       "stelle": [
-        18.51,
-        24.63
+        18.83,
+        25.11
       ]
     },
     {
@@ -159,8 +159,8 @@
         6
       ],
       "stelle": [
-        25.08,
-        27.78
+        25.56,
+        28.27
       ]
     },
     {
@@ -173,8 +173,8 @@
         8
       ],
       "stelle": [
-        33.84,
-        37.8
+        35.69,
+        39.65
       ]
     }
   ],

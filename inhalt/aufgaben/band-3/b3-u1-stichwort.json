@@ -23,7 +23,7 @@
     {
       "id": "jonas",
       "name": "Jonas",
-      "stimme": "pocket:paul"
+      "stimme": "pocket:cml2114"
     }
   ],
   "transkript": [
@@ -32,70 +32,70 @@
       "sprecher": "jonas",
       "text": "Allô, Inès ? C’est Jonas. J’ai un problème : j’ai perdu mon groupe !",
       "von": 0.6,
-      "bis": 5.36
+      "bis": 5.92
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Quoi ? Tu es où, là ?",
-      "von": 5.81,
-      "bis": 7.73
+      "von": 6.37,
+      "bis": 8.32
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Je ne sais pas… Il y a une grande place avec une fontaine et un cinéma.",
-      "von": 8.18,
-      "bis": 12.38
+      "von": 8.77,
+      "bis": 13.37
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Ah, c’est sûrement la place de la Comédie. Ne bouge pas ! Ton portable a encore de la batterie ?",
-      "von": 12.83,
-      "bis": 18.34
+      "von": 13.82,
+      "bis": 19.34
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Oui, mais seulement douze pour cent. Je n’ai pas mon chargeur.",
-      "von": 18.79,
-      "bis": 22.11
+      "von": 19.79,
+      "bis": 24.31
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "D’accord, alors on fait vite. Je finis le basket à cinq heures et quart. Je prends le tram, la ligne un, et j’arrive vers six heures moins le quart.",
-      "von": 22.56,
-      "bis": 30.39
+      "von": 24.76,
+      "bis": 32.77
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Six heures moins le quart… OK. Je t’attends devant le cinéma ?",
-      "von": 30.84,
-      "bis": 35.36
+      "von": 33.22,
+      "bis": 38.78
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Non, plutôt devant l’office de tourisme, c’est juste à côté.",
-      "von": 35.81,
-      "bis": 39.32
+      "von": 39.23,
+      "bis": 42.73
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Bon, d’accord. Et mon groupe ?",
-      "von": 39.77,
-      "bis": 42.61
+      "von": 43.18,
+      "bis": 46.58
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "J’écris un message à ton prof. Et toi, achète-toi une glace, ça va te calmer !",
-      "von": 43.06,
-      "bis": 47.89
+      "von": 47.03,
+      "bis": 51.85
     }
   ],
   "items": [
@@ -112,8 +112,8 @@
         3
       ],
       "stelle": [
-        12.83,
-        18.34
+        13.82,
+        19.34
       ]
     },
     {
@@ -129,8 +129,8 @@
         4
       ],
       "stelle": [
-        18.79,
-        22.11
+        19.79,
+        24.31
       ]
     },
     {
@@ -148,8 +148,8 @@
         5
       ],
       "stelle": [
-        22.56,
-        30.39
+        24.76,
+        32.77
       ]
     },
     {
@@ -166,8 +166,8 @@
         5
       ],
       "stelle": [
-        22.56,
-        30.39
+        24.76,
+        32.77
       ]
     },
     {
@@ -185,8 +185,8 @@
         5
       ],
       "stelle": [
-        22.56,
-        30.39
+        24.76,
+        32.77
       ]
     },
     {
@@ -202,8 +202,8 @@
         7
       ],
       "stelle": [
-        35.81,
-        39.32
+        39.23,
+        42.73
       ]
     }
   ],

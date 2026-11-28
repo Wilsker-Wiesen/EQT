@@ -23,7 +23,7 @@
     {
       "id": "jonas",
       "name": "Jonas",
-      "stimme": "pocket:paul"
+      "stimme": "pocket:cml2114"
     }
   ],
   "transkript": [
@@ -32,70 +32,70 @@
       "sprecher": "ines",
       "text": "Alors, Jonas, qu’est-ce qui est différent chez toi, en Allemagne ?",
       "von": 0.6,
-      "bis": 4.5
+      "bis": 4.43
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "L’école, surtout ! Chez moi, les cours finissent à une heure ou à deux heures. Ici, les journées sont beaucoup plus longues.",
-      "von": 4.95,
-      "bis": 10.99
+      "von": 4.88,
+      "bis": 13.56
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Oui, mais nous, on a une vraie pause à midi.",
-      "von": 11.44,
-      "bis": 13.94
+      "von": 14.01,
+      "bis": 16.66
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "C’est vrai. Et la cantine est meilleure que chez nous ! Hier, j’ai mangé un poisson délicieux.",
-      "von": 14.39,
-      "bis": 20.03
+      "von": 17.11,
+      "bis": 22.99
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Ha ha, tu es le premier à dire ça !",
-      "von": 20.48,
-      "bis": 22.59
+      "von": 23.44,
+      "bis": 25.52
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Par contre, ici, le dîner est très tard. Chez moi, on mange à six heures et demie. Ici, à huit heures ! Le premier soir, j’ai eu très faim !",
-      "von": 23.04,
-      "bis": 30.92
+      "von": 25.97,
+      "bis": 35.21
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Et ta ville ? Elle est plus grande que Montpellier ?",
-      "von": 31.37,
-      "bis": 34.12
+      "von": 35.66,
+      "bis": 38.35
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Non, j’habite près de Brême, dans une petite ville. C’est beaucoup moins grand que Montpellier.",
-      "von": 34.57,
-      "bis": 39.33
+      "von": 38.8,
+      "bis": 44.84
     },
     {
       "audio": 0,
       "sprecher": "ines",
       "text": "Et le temps ?",
-      "von": 39.78,
-      "bis": 40.62
+      "von": 45.29,
+      "bis": 46.13
     },
     {
       "audio": 0,
       "sprecher": "jonas",
       "text": "Alors là, pas de comparaison. Ici, il fait beaucoup plus chaud. En novembre, chez moi, il pleut tout le temps !",
-      "von": 41.07,
-      "bis": 46.55
+      "von": 46.58,
+      "bis": 53.42
     }
   ],
   "items": [
@@ -112,8 +112,8 @@
         1
       ],
       "stelle": [
-        4.95,
-        10.99
+        4.88,
+        13.56
       ]
     },
     {
@@ -129,8 +129,8 @@
         1
       ],
       "stelle": [
-        4.95,
-        10.99
+        4.88,
+        13.56
       ]
     },
     {
@@ -146,8 +146,8 @@
         3
       ],
       "stelle": [
-        14.39,
-        20.03
+        17.11,
+        22.99
       ]
     },
     {
@@ -163,8 +163,8 @@
         5
       ],
       "stelle": [
-        23.04,
-        30.92
+        25.97,
+        35.21
       ]
     },
     {
@@ -180,8 +180,8 @@
         7
       ],
       "stelle": [
-        34.57,
-        39.33
+        38.8,
+        44.84
       ]
     },
     {
@@ -197,8 +197,8 @@
         9
       ],
       "stelle": [
-        41.07,
-        46.55
+        46.58,
+        53.42
       ]
     }
   ],

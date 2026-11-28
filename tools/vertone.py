@@ -45,10 +45,33 @@ def stimme(spec: str) -> tuple[PiperVoice, int | None]:
 POCKET = STIMMEN / "pocket" / "pocket-tts-3.3.0-x86_64-apple-darwin" / "pocket-tts"
 
 
+TTS_VOICES = "https://huggingface.co/kyutai/tts-voices/resolve/main/"
+# Geklonte Stimmen: Kürzel → Referenzaufnahme in kyutai/tts-voices (Lizenz siehe STIMMEN.md).
+# Klonen braucht das freigeschaltete Modell kyutai/pocket-tts (Hugging-Face-Anmeldung).
+KLONSTIMMEN = {
+    "cml2114": "cml-tts/fr/2114_1656_000053-0001_enhanced.wav",
+    "cml4937": "cml-tts/fr/4937_3731_000004-0001_enhanced.wav",
+    "cml1406": "cml-tts/fr/1406_1028_000009-0003_enhanced.wav",
+    "fabieng": "unmute-prod-website/fabieng-enhanced-v2.wav",
+}
+
+
+def pocket_stimme(name: str) -> str:
+    """Katalogname (z. B. «paul») oder Kürzel einer Klonstimme → Argument für --voice."""
+    if name not in KLONSTIMMEN:
+        return name
+    ziel = STIMMEN / "pocket" / "klon" / Path(KLONSTIMMEN[name]).name
+    if not ziel.exists():
+        ziel.parent.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["curl", "-sSfL", "-o", str(ziel), TTS_VOICES + KLONSTIMMEN[name]], check=True)
+    return str(ziel)
+
+
 def sprich_pocket(name: str, text: str) -> tuple[int, np.ndarray]:
-    """Kyutai Pocket TTS (CC BY 4.0), Katalogstimme, französisches Modell."""
+    """Kyutai Pocket TTS (CC BY 4.0), französisches Modell; Katalog- oder Klonstimme."""
     if not POCKET.exists():
         sys.exit(f"Pocket TTS fehlt: {POCKET}")
+    name = pocket_stimme(name)
     with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
         subprocess.run(
             [str(POCKET), "generate", "-q", "--language", "french", "--voice", name,
